@@ -15,3 +15,5 @@ typeof NaN = number
 
 
 ****Funtional scope is a block scope.
+
+****When a function is 

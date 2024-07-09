@@ -1,0 +1,30 @@
+'this' is a Method and it is a keyword
+--------------------------------------------------------------------------------
+The main work of 'this' is to refer object.
+এই this কে যেই object এর মধ্যে রেখে use করা হবে, এটা সেই object কেই refer করবে।
+--------------------------------------------------------------------------------
+*When used in an object method, this refers to the object.
+In the example on top of this page, this refers to the user object.
+
+*When used alone, this refers to the global object.
+Because this is running in the global scope.
+
+*In a browser, the global object name is Window
+and in any IDE, the global object is empty.
+
+*But inside a function, only this works differently.
+
+-------------------------------------
+*Object's function is called method.
+-------------------------------------
+
+=================================================================================
+The this keyword refers to different objects depending on how it is used:
+
+In an object method, this refers to the object.
+Alone, this refers to the global object.
+In a function, this refers to the global object.
+In a function, in strict mode, this is undefined.
+In an event, this refers to the element that received the event.
+Methods like call(), apply(), and bind() can refer this to any object.
+=================================================================================

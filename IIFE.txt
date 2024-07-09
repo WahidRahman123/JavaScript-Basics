@@ -1,0 +1,28 @@
+Declaration:
+(function definition)(function execution);      //; is must after this.
+
+Full Code:
+//function definition
+function fun(){
+  body
+}
+fun()     //This is called execution.
+
+
+Code using IIFE:
+(function fun() {
+  body
+})();
+
+
+There are two types of IIFE:
+============================
+(function fun() {
+  console.log("Hello World");
+})();     //This called named IIFE
+
+and 
+
+(() => {
+  console.log("Wahid Rahman");
+})();     //This is simple or unnamed IIFE

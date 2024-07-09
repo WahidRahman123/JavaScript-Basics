@@ -42,6 +42,9 @@ const addtwo = function(num){
   return num + 2
 }
 //This is called expression.
-//! Important: this Expression cannot be called before its declaration. Hoisting.
+//! Important: this Expression cannot be called before its declaration. See Hoisting topic.
+//*------------------------------------------------------------------------------------------------//
+//* ***JavaScript only hoists declarations, not initializations(it is the first value assignment).*//
+//*------------------------------------------------------------------------------------------------//
 
 //addtwo(5)

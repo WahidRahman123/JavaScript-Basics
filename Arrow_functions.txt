@@ -1,0 +1,14 @@
+Declaration:
+() => {}
+or, 
+var/let/const var_name = () => {
+  body
+}
+
+For one line statement:
+() => 2
+or,
+() => (2)
+***We must write 'return' if we use {} here.***
+
+it takes no parameter and return 2. We didn't have to write 'return' word seperately. 
