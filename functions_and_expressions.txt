@@ -1,0 +1,15 @@
+Function declaration:
+---------------------
+function fun_name(parameters){
+  body
+}
+Execution: fun_name(arguments);
+Reference: fun_name;
+
+Expression declaration:
+-----------------------
+let/var/const var_name = function(parameters){
+  body
+}
+
+****Important: this Expression cannot be accessed before its declaration.

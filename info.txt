@@ -1,0 +1,17 @@
+null = standalone value which means empty or it represents an empty value and carry no meaningful information
+
+undefined = it means value is not defined or it represents any value that has not been defined anywhere in the program
+
+NaN (Not a Number)
+
+typeof null	= object
+typeof undefined = undefined 
+typeof NaN = number
+
+
+... has two names depending on the situations or places -
+1. spread operator
+2. rest operator (It packs all the arguments and pass them into the parameter. Returns array)
+
+
+****Funtional scope is a block scope.
