@@ -1,3 +1,5 @@
+//* IIFE: Immediately Invoked Function Expressions
+
 (function fun() {
   console.log("Hello World");
 })();     //This called named IIFE

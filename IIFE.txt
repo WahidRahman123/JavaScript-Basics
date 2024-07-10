@@ -1,3 +1,4 @@
+IIFE: Immediately Invoked Function Expressions
 Declaration:
 (function definition)(function execution);      //; is must after this.
 

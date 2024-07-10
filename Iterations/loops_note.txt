@@ -1,0 +1,51 @@
+Forof:
+------
+Array     //Returns values.
+String    //Returns characters.
+maps      //Returns key, value.
+
+
+Forin:
+------
+Objects   //Returns keys.
+Array     //Returns indexs.
+
+
+forEach:
+--------
+Array     //Returns values.
+
+
+
+forEach declaration:
+=====================
+array.forEach(function () {
+    body
+  });
+
+  or,
+
+array.forEach(() => {
+    body
+  });
+
+  or,
+
+  array.forEach((element) => {
+    body
+  });
+
+  or,
+
+  array.forEach((element,a,b) => {
+    body
+  });
+
+  or,
+  
+  array.forEach(element => {        //This is allowed for one parameter only.
+    body
+  });
+
+  
+  
