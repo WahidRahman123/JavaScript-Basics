@@ -16,4 +16,6 @@ typeof NaN = number
 
 ****Funtional scope is a block scope.
 
-****When a function is 
+****Important methods: forEach, filter, map (Can be think them as loops).
+
+****array.forEach or array.filter needs "callback function" and '() => {}' is called callback here.

@@ -1,0 +1,6 @@
+array.filter() = returns array of values that meets condition.
+
+array.map() = returns array according to the expression given. (Operation Execution)
+
+array.forEach() = Doesn't return anything. Working like loops.
+//see loops_note.txt for more information about forEach, filter.

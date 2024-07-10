@@ -11,6 +11,7 @@ Objects   //Returns keys.
 Array     //Returns indexs.
 
 
+//forEach is a method used with arrays. But forEach does not return anything.
 forEach:
 --------
 Array     //Returns values.
@@ -47,5 +48,11 @@ array.forEach(() => {
     body
   });
 
+
+filter declaration:
+====================
+array.filter( () => condition )
+array.filter( () => (condition) )
+array.filter( () => {return condition} )
   
   

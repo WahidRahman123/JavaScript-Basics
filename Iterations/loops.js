@@ -6,6 +6,8 @@ for (let index = 0; index < array.length; index++) {
 
 
 //* For Array only:
+//* forEach is a method used with arrays.
+//* It doesn't return anything.
 /* forEach declaration:
     array.forEach(element => {
         body
