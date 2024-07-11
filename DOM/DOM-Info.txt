@@ -10,8 +10,21 @@ textContent         //with invisible text
 innerHTML           //full text with tags.
 
 
-querySelector('h2')
+querySelector('h2')       //First one
 querySelector('#title')
 querySelector('.heading')
 querySelector('[atrribute_name]')
 querySelector('input[type='password']')
+
+
+Two terms:
+1. Nodelist
+2. HTML Collection
+
+Converting these two into array:
+Array.from(nameOfTheVariable)
+Ex:
+Array.from(var1)
+
+
+******className.children
