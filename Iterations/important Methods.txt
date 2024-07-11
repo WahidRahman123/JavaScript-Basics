@@ -4,3 +4,5 @@ array.map() = returns array according to the expression given. (Operation Execut
 
 array.forEach() = Doesn't return anything. Working like loops.
 //see loops_note.txt for more information about forEach, filter.
+
+array.reduce()

@@ -18,7 +18,7 @@ Array     //Returns values.
 
 
 
-forEach declaration:
+forEach declaration: ("loop")
 =====================
 array.forEach(function () {
     body
@@ -49,10 +49,33 @@ array.forEach(() => {
   });
 
 
-filter declaration:
+filter declaration: ("loop")
 ====================
 array.filter( () => condition )
 array.filter( () => (condition) )
 array.filter( () => {return condition} )
+//Other declaration styles are same as array.forEach
+
+
+map declaration: ("loop")
+=================
+array.map( (num) => expression )
+//Other declaration styles are same as array.forEach
+
+
+reduce declaration with example:   ("loop")
+================================
+//It calculates the values in the array.
+const array = [1, 2, 3, 4]
   
-  
+const initialValue = 0;
+const sumWithInitial = array.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  initialValue
+);
+//Other declaration styles are same as array.forEach
+
+Working way:
+-------------
+Only at first, accumulator = initialValue   
+then, accumulator = accumulator + currentValue
