@@ -1,0 +1,17 @@
+DOM stands for Document Object Model.
+
+console.log(window)
+console.log(window.document)
+console.dir(window.document)
+
+
+innerText           //Without invisible text
+textContent         //with invisible text
+innerHTML           //full text with tags.
+
+
+querySelector('h2')
+querySelector('#title')
+querySelector('.heading')
+querySelector('[atrribute_name]')
+querySelector('input[type='password']')
