@@ -5,9 +5,10 @@ console.log(window.document)
 console.dir(window.document)
 
 
-innerText           //Without invisible text
-textContent         //with invisible text
-innerHTML           //full text with tags.
+innerText = 'text'           //Without invisible text
+textContent = 'text'         //with invisible text
+innerHTML = 'text'           //full text with tags.
+outerHTML = '<li>text</li>;
 
 
 querySelector('h2')       //First one
@@ -27,4 +28,58 @@ Ex:
 Array.from(var1)
 
 
-******className.children
+Some Important Terms(CSS seletors):
+-------------------------------
+:first-child
+:last-child
+:nth-child(n)
+
+Traversing:
+--------------
+.parentElement
+.children
+.childNodes         //which includes the line breaks also.  //Important
+.firstElementChild
+.lastElementChild
+.nextElementSibling
+
+
+Creating Element:
+-----------------
+document.createElement('div')
+
+Creating textNode:
+------------------
+document.createTextNode('text file')
+
+Appending:
+----------
+.appenChild(name)
+
+Appending with the body:
+------------------------
+document.body.appenChild()
+
+Create:
+---------------------
+1. Creating Element
+2. Creating textNode
+3. Appending with the element 
+4. Appending with the query
+
+Edit:
+-----
+1. querySelector()         //Select the file you want to replace (suppose a)
+2. createElement()         //(suppose b)
+3. textContent = 'text'    //Add text to the new element
+   or,
+   innerHTML = 'text'
+   or,
+   outerHTML = '<li>text</li>'  //Creating problem in my code editor
+4. replaceWith()   //a.replaceWith(b)
+
+Remove:
+-------
+1. Select the query we want to Remove in a variable
+2. variable.remove()
+

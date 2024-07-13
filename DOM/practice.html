@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Practice</title>
+</head>
+<body style="background-color: #212121; color:#fff;">
+
+  
+</body>
+<script>
+  const para = document.createElement('p')
+  console.log(para);
+  para.className = "head text"
+  para.id = Math.round(Math.random() * 10 + 1)
+  para.setAttribute("title", "A good Example.")
+  para.style.padding = '12px'
+  para.style.backgroundColor = 'green'
+  para.style.border = '2px white solid'
+  para.style.borderRadius = '15px'
+  para.style.textAlign = 'center'
+  para.style.fontStyle = 'italic'
+  para.style.letterSpacing = '2px'
+  
+  //Adding content in a best way:
+  const addText = document.createTextNode("Ms")
+  para.appendChild(addText)
+
+  //Last work:
+  document.body.appendChild(para)
+</script>
+</html>
