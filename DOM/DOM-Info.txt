@@ -19,7 +19,7 @@ querySelector('input[type='password']')
 
 
 Two terms:
-1. Nodelist
+1. Nodelist                //forEach is available
 2. HTML Collection
 
 Converting these two into array:
