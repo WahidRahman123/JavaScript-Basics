@@ -18,6 +18,9 @@ querySelector('[atrribute_name]')
 querySelector('input[type='password']')
 
 
+.setAtrribute('')
+.removeAtrribute('')
+
 Two terms:
 1. Nodelist                //forEach is available
 2. HTML Collection

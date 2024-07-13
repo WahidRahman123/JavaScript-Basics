@@ -8,6 +8,24 @@ typeof null	= object
 typeof undefined = undefined 
 typeof NaN = number
 
+======================================================
+------------------------------------------------------
+Normal way of checking a variable is NaN or not is -
+var_name === NaN
+Standard way of checking a variable is NaN or not is - 
+isNaN(var_name)
+------------------------------------------------------
+======================================================
+
+
+
+---------------------------------------------------------------------
+Value Conversion:
+=================
+parseInt('string')    //Converts the string value into integer value.
+toFixed(2)            //Have 2 decimal number.
+
+---------------------------------------------------------------------
 
 ... has two names depending on the situations or places -
 1. spread operator
