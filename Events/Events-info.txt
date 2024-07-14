@@ -1,6 +1,6 @@
 Have to read:
 -------------
-  type, timestamp, defaultPrevented
+  type, timestamp, preventDefault
   target,toElement, srcElement, currentTarget
   clientX, clientY, screenX, screenY
   allKey, ctrlKey, shiftKey, keyCode
