@@ -1,0 +1,24 @@
+Have to read:
+-------------
+  type, timestamp, defaultPrevented
+  target,toElement, srcElement, currentTarget
+  clientX, clientY, screenX, screenY
+  allKey, ctrlKey, shiftKey, keyCode
+
+Event Propagation:
+------------------
+1. Bubbling (false - default value): bottom to top, down to up, children to parent
+2. Capturing mode (true): top to bottom, parent to children
+
+To stop the bubbling:
+---------------------
+  e.stopPropagation()
+
+e.preventDefault()    \\Stops link surfing.
+
+
+
+Two ways to remove an HTML element:
+===================================
+selectedOne.remove()
+selectedOne.parentNode.removeChild(selectedOne)

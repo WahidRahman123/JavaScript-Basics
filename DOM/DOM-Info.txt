@@ -86,3 +86,9 @@ Remove:
 1. Select the query we want to Remove in a variable
 2. variable.remove()
 
+Two ways to remove an HTML element:
+===================================
+selectedOne.remove()
+selectedOne.parentNode.removeChild(selectedOne)
+
+
