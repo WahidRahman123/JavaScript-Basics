@@ -3,6 +3,7 @@ Forof:
 Array     //Returns values.
 String    //Returns characters.
 maps      //Returns key, value.
+Set       //Returns values.
 
 
 Forin:
@@ -15,7 +16,7 @@ Array     //Returns indexs.
 forEach:
 --------
 Array     //Returns values.
-
+Set       //Returns values.
 
 
 forEach declaration: ("loop")
